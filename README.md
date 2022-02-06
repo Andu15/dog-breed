@@ -1,7 +1,4 @@
 # DOG-BREED
-
-< img src="src/assets/images/logo-dog-breed.png" />
-
 Este proyecto esta basado en tres pantallas simples en la cual podras obtener imagenes aleatorias de la raza de perro de tu preferencia
 
 ## Recursos
