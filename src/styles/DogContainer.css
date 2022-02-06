@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@import './index.css';
+
+.container-breed-dog{
+  font-family: 'Roboto', sans-serif;
+  @apply mt-11 flex justify-center
+}
+
+.container-dog-img{
+  @apply mt-6 bg-pinkStick rounded-lg;
+}
+
+.dog-img{
+  width: 80%;
+  @apply rounded-xl	mx-auto my-4
+}
+
+.dog-breed{
+  @apply text-center my-4 text-lg font-semibold text-bone;
+}
+
+@media (min-width: 500px) {
+  .container-dog-img{
+    width: 60%;
+    @apply mt-11;
+  }
+  .dog-img{
+    @apply my-11;
+  }
+  .dog-breed{
+    @apply mt-2 mb-6 text-2xl;
+  }
+}
+
+@media (min-width: 700px) {
+  .container-dog-img{
+    width: 40%;
+  }
+}
+
+@media (min-width: 850px) {
+  .container-dog-img{
+    @apply mt-2;
+  }
+  .dog-img{
+    @apply my-6;
+  }
+  .dog-breed{
+    @apply mt-2 mb-6 text-2xl;
+  }
+}

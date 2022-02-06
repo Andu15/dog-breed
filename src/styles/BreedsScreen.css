@@ -1,0 +1,26 @@
+@import '../styles/index.css';
+
+.breeds-list-container{
+  @apply grid grid-cols-1 mt-6;
+}
+
+@media (min-width:355px){
+  .nav-container{
+    @apply flex;
+  }
+  .breeds-list-container{
+    @apply grid-cols-2 mt-11
+  }
+}
+
+@media (min-width:500px){
+  .breeds-list-container{
+    @apply grid-cols-3 mt-16
+  }
+}
+
+@media (min-width:800px){
+  .breeds-list-container{
+    @apply grid-cols-4 mt-16
+  }
+}

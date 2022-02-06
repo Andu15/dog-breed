@@ -1,0 +1,34 @@
+@import './index.css';
+
+.alphabet-btn-container{
+  @apply mx-auto;
+}
+
+.letter-btn{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 200px;
+  @apply bg-vibrantGreen text-bone text-center text-3xl my-2 p-2;
+}
+
+.letter-btn:hover{
+  transform: scale(1.1);
+  @apply bg-softBlur;
+}
+
+@media (min-width: 520px) {
+  .letter-btn{
+    width: 70px;
+    height: 70px;
+    @apply text-4xl p-4;
+  }
+}
+
+@media (min-width: 800px) {
+  .letter-btn{
+    width: 90px;
+    height: 90px;
+    @apply text-5xl p-4 p-5;
+  }
+}

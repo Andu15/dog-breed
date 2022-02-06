@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@import './index.css';
+
+.breed-filter-container{
+  width: 90%;
+  @apply text-lightBlack text-sm mx-2.5 text-center my-3;
+}
+
+.breed-filter{
+  font-family: 'Roboto', sans-serif;
+  @apply font-medium;
+}
+
+.breed-filter:hover{
+  @apply text-softBlur font-bold;
+}
+
+@media (min-width:700px){
+  .breed-filter{
+    @apply text-base
+  }
+}
+
+@media (min-width:1000px){
+  .breed-filter{
+    @apply text-lg
+  }
+}

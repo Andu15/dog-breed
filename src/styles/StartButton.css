@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@import './index.css';
+
+.btn-container{
+  @apply mx-auto text-center;
+}
+
+.btn{
+  font-family: 'Roboto', sans-serif;
+  @apply text-bone bg-vibrantGreen rounded-full px-9 py-1 text-2xl mt-11 font-semibold;
+}
+
+.btn:hover{
+  transform: scale(1.1);
+  @apply bg-softBlur;
+}
+
+
+@media (min-width: 300px) {
+  .btn{
+    @apply px-12 py-1.5;
+  }
+}
+
+@media (min-width: 400px) {
+  .btn{
+    @apply px-16 py-2 text-3xl;
+  }
+}
+
+@media (min-width: 530px) {
+  .btn{
+    @apply px-20 py-2.5;
+  }
+}
+
+@media (min-width: 600px) {
+  .btn{
+    @apply px-28 py-3;
+  }
+}
+
+@media (min-width: 758px) {
+  .btn{
+    @apply text-4xl;
+  }
+}
+
+@media (min-width: 1028px) {
+  .btn{
+    @apply px-36 py-4;
+  }
+}
+
+@media (min-width: 1500px) {
+  .btn{
+    @apply py-5 text-5xl;
+  }
+}

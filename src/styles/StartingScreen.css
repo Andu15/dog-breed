@@ -1,0 +1,23 @@
+@import './index.css';
+
+.start-container{
+  width: 90%;
+  @apply mx-auto mt-56;
+}
+
+.logo-container{
+  width: 50%;
+  margin: auto;
+}
+
+@media (min-width: 1000px) {
+  .start-container{
+    @apply mt-32;
+  }
+}
+
+@media (min-width: 1400px) {
+  .start-container{
+    @apply mt-8;
+  }
+}

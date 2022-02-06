@@ -1,0 +1,53 @@
+@import './index.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+
+.container{
+  width: 90%;
+  @apply mx-auto mt-8;
+}
+
+.logo-app-container{
+  @apply w-20;
+}
+
+.alphabet-title{
+  font-family: 'Roboto', sans-serif;
+  @apply text-center my-11 text-2xl font-semibold;
+}
+
+.alphabet-grid{
+  @apply grid grid-cols-4 mx-auto;
+}
+
+@media (min-width: 750px) {
+  .alphabet-grid{
+    width: 80%;
+  }
+  .container{
+    @apply mt-11;
+  }
+  .alphabet-title{
+    @apply text-3xl;
+  }
+}
+
+@media (min-width: 1000px) {
+  .alphabet-title{
+    @apply text-4xl;
+  }
+  .alphabet-grid{
+    width: 70%;
+  }
+  .container{
+    @apply mt-20;
+  }
+}
+
+@media (min-width: 2000px) {
+  .alphabet-grid{
+    width: 50%;
+  }
+  .container{
+    @apply mt-24;
+  }
+}
